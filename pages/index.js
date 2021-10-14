@@ -2,6 +2,8 @@ import Head from 'next/head'
 import Navbar from '../components/navbar'
 import Test from '../components/test'
 import Home from './Home'
+import Footer from '../components/footer'
+
 
 export default function App() {
   return (
@@ -23,7 +25,7 @@ export default function App() {
       </Head>
       <Navbar />
       <Home/>
-      {/* <Test /> */}
+      <Footer />
     </div>
   )
 }
