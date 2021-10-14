@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import Link from 'next/link'
-import {Button} from './button'
+import Btn from './button'
 
 
 function Navbar() {
@@ -58,7 +58,7 @@ function Navbar() {
                             </Link>
                         </li>
                     </ul>
-                    {/* {button && <Button buttonStyle='btn--outline'>SIGN UP</Button>} */}
+                    {button && <Btn buttonStyle='btn--outline'>SIGN UP</Btn>}
                 </div>
             </nav>
         </>

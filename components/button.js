@@ -1,12 +1,12 @@
 
 import React from 'react';
-import { Link } from 'next/link';
+import Link  from 'next/link';
 
 const STYLES = ['btn--primary', 'btn--outline', 'btn--test'];
 
 const SIZES = ['btn--medium', 'btn--large'];
 
-export const Button = ({
+const Btn = ({
     children,
     type,
     onClick,
@@ -34,4 +34,5 @@ export const Button = ({
             </Link>
         </>
     )
-}
+};
+export default Btn;
